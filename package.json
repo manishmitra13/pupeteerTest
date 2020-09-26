@@ -1,0 +1,34 @@
+{
+  "name": "pupeteertest",
+  "version": "1.0.0",
+  "description": "This is a pupeteer Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manishmitra13/pupeteerTest.git"
+  },
+  "keywords": [
+    "pupetter"
+  ],
+  "author": "Manish",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manishmitra13/pupeteerTest/issues"
+  },
+  "homepage": "https://github.com/manishmitra13/pupeteerTest#readme",
+  "dependencies": {
+    "@types/jest-environment-puppeteer": "^4.3.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.14",
+    "@types/puppeteer": "^3.0.2",
+    "jest": "^26.4.2",
+    "jest-puppeteer": "^4.4.0",
+    "puppeteer": "^5.3.1",
+    "ts-jest": "^26.4.0",
+    "typescript": "^4.0.3"
+  }
+}
